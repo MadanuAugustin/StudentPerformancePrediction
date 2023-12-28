@@ -1,0 +1,7 @@
+pandas
+numpy
+seaborn
+logging
+scikit-learn
+dill
+-e .
