@@ -49,3 +49,12 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, param):
             return report
     except Exception as e:
         raise CustomException (e, sys)
+
+    # load_object function is responsible for loading the pkl file
+def load_object(file_path):
+    try:
+        with open(file_path, 'rb') as file_obj: # opening the file_path in readbyte mode and loading the pkl file
+            return dill.load(file_obj)
+        
+    except Exception as e:
+        raise CustomException(e, sys)
