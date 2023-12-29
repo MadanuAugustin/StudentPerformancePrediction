@@ -11,7 +11,7 @@ from src.components.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)
 
-app = application
+app=application
 
 ## Route for Home page
 
