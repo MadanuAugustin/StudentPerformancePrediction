@@ -15,9 +15,9 @@ app=application
 
 ## Route for Home page
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 @app.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
@@ -42,4 +42,4 @@ def predict_datapoint():
         return render_template('home.html', results = results[0]) #because it will be in the list format
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0')
+    app.run(host = '0.0.0.0', debug=True) ## the output will be on http://127.0.0.1:5000/predictdata
