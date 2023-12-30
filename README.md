@@ -1,4 +1,4 @@
-## End-to-End Machine Learning Project ## First_project
+## End-to-End Machine Learning Project
 
 ## Note : This project is just for practice
 ### RegressionProblem--
