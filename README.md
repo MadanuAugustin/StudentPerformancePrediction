@@ -12,3 +12,10 @@
 ### math_score
 ### reading_score
 ### writing_score
+
+# FINAL OUTPUT
+
+
+
+https://github.com/MadanuAugustin/StudentPerformancePrediction/assets/119403639/4127a396-e0d1-45de-a07f-367e3a11a618
+
